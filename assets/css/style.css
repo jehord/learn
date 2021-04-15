@@ -9,8 +9,8 @@ margin: margin-top margin-right margin-bottom margin-left;
 padding: Y X;
 margin: Y X;
 padding: PT=10px PX=30px PB50px;
-
 */
+
 * {
     margin: 0;
     padding: 0;
@@ -96,7 +96,6 @@ main {
 .products__card__price span {
     font-weight: 600;
     font-size: 24px;
-    color: red;
 }
 
 .products__card__price s {
@@ -110,7 +109,6 @@ main {
 
 .sale {
     padding: 4px 15px;
-    background-color: red;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -130,7 +128,6 @@ main {
 .filer {
     width: 300px;
     height: 500px;
-    background-color: red;
 }
 
 .products__list {
