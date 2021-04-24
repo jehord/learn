@@ -1,0 +1,21 @@
+.init-grid {
+    display: grid;
+    grid-template-columns: 20% 1fr 15%;
+    grid-template-rows: 70px 450px 70px;
+    grid-gap:10px;
+    height: 100%;
+}
+
+header, nav, main, aside, footer {
+    font-size: larger;
+    color: #fff;
+    background-color: #f3a621;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header, footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
