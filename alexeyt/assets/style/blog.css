@@ -1,0 +1,113 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: #2b2a29;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+section.posts acticle {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f3f5;
+    margin: 10px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bg-accent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: rgb(4 164 156)
+}
+
+.bg-accent .picture {
+    max-width: 45%;
+}
+
+.picture:hover {
+    max-width: 65%;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.details .title {
+    padding: 25px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title h2, .details p {
+    margin: 0;
+}
+
+.short-text {
+    padding: 0 20px 20px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.actions {
+    display: flex;
+    padding: 0 20px 10px;
+    justify-content: space-between;
+    color: #736f6f;
+    font-weight: bold;
+}
+
+.act-group span:nth-child(2) {
+    margin-left: 10px;
+}
+
+.actions span {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    section.posts acticle {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #f2f3f5;
+        margin: 10px 0;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .bg-accent, .wrapper {
+        width: auto;
+    }
+
+    .bg-accent .picture {
+        width: 45%;
+    }
+
+    .details p {
+        text-align: justify;
+    }
+
+    .details .title {
+        padding: 15px 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+}
